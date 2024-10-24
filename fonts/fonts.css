@@ -18,6 +18,5 @@
 @supports (font-variation-settings: normal) {
     body {
       font-family: 'Inter';
-      font-variation-settings: 'wght' 400;
     }
   }
