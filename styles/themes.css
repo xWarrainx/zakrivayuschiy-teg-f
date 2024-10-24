@@ -10,8 +10,8 @@
     --width-content: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
     --height-content: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
     /* Шрифты */
-    --font-main: 'Inter', serif;
-    --font-accent: 'Press Start 2P', serif;
+    --font-main: 'Inter', sans-serif;
+    --font-accent: 'Press Start 2P', sans-serif;
     --font-weight: 'wght' 465;
     --font-weight-bold: 'wght' 785;
 
@@ -32,8 +32,8 @@
     --width-content: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
     --height-content: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
     /* Шрифты */
-    --font-main: 'Inter', serif;
-    --font-accent: 'Press Start 2P', serif;
+    --font-main: 'Inter', sans-serif;
+    --font-accent: 'Press Start 2P', sans-serif;
     --font-weight: 'wght' 400;
     --font-weight-bold: 'wght' 700;
 
@@ -55,8 +55,8 @@
         --width-content: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
         --height-content: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
         /* Шрифты */
-        --font-main: 'Inter', serif;
-        --font-accent: 'Press Start 2P', serif;
+        --font-main: 'Inter', sans-serif;
+        --font-accent: 'Press Start 2P', sans-serif;
         --font-weight: 'wght' 400;
         --font-weight-bold: 'wght' 700;
 
@@ -70,12 +70,5 @@
         --image-label-stroke: #000000;
         --mix-botton-color: #00CC14;
         --sparks-color: #FF0000;
-    }
-}
-
-@media (width <= 375px) {
-    .header,
-    .content {
-        --width-content: 100vw;
     }
 }

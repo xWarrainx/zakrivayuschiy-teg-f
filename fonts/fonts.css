@@ -15,7 +15,7 @@
     font-display: swap;
   }
 
-@supports (font-variation-settings: 'wght' 400) {
+@supports (font-variation-settings: normal) {
     body {
       font-family: 'Inter';
       font-variation-settings: 'wght' 400;
