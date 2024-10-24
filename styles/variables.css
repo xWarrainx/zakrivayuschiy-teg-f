@@ -5,8 +5,8 @@
                 /* Шрифты */
     --font-main: 'Inter', sans-serif;
     --font-accent: 'Press Start 2P', sans-serif;
-    --font-weight: 'wght' 400;
-    --font-weight-bold: 'wght' 700;
+    --font-weight: 400;
+    --font-weight-bold: 700;
 
                 /* Фон, цвета */
     --background:

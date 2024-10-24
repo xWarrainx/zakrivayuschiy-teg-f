@@ -19,7 +19,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-main);
-  font-variation-settings: var(--font-weight);
+  font-variation-settings: 'wght' var(--font-weight);
   background-color: var(--background-color, #FFFFFF);
   background-image: var(--background);
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@
 }
 
 .section-title {
-  font-variation-settings: var(--font-weight-bold);
+  font-variation-settings: 'wght' var(--font-weight-bold);
   margin: 4px 10px 6px;
   font-size: 18px;
 }

@@ -12,8 +12,8 @@
     /* Шрифты */
     --font-main: 'Inter', sans-serif;
     --font-accent: 'Press Start 2P', sans-serif;
-    --font-weight: 'wght' 465;
-    --font-weight-bold: 'wght' 785;
+    --font-weight: 465;
+    --font-weight-bold: 785;
 
     /* Фон, цвета */
     --background:
@@ -34,8 +34,8 @@
     /* Шрифты */
     --font-main: 'Inter', sans-serif;
     --font-accent: 'Press Start 2P', sans-serif;
-    --font-weight: 'wght' 400;
-    --font-weight-bold: 'wght' 700;
+    --font-weight: 400;
+    --font-weight-bold: 700;
 
     /* Фон, цвета */
     --background:
@@ -57,8 +57,8 @@
         /* Шрифты */
         --font-main: 'Inter', sans-serif;
         --font-accent: 'Press Start 2P', sans-serif;
-        --font-weight: 'wght' 400;
-        --font-weight-bold: 'wght' 700;
+        --font-weight: 400;
+        --font-weight-bold: 700;
 
         /* Фон, цвета */
         --background:
