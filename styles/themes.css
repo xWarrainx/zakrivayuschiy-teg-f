@@ -4,3 +4,78 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark {
+    /* Размеры */
+    --width-content: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --height-content: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
+    /* Шрифты */
+    --font-main: 'Inter', serif;
+    --font-accent: 'Press Start 2P', serif;
+    --font-weight: 'wght' 465;
+    --font-weight-bold: 'wght' 785;
+
+    /* Фон, цвета */
+    --background:
+        repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+        linear-gradient(to bottom, #007f0c, #004306);
+    --background-color: #000000;
+    --accent-color: #00CC14;
+    --image-label-stroke: #000000;
+    --mix-botton-color: #00CC14;
+    --sparks-color: #FF0000;
+}
+
+:root.theme-light {
+    /* Размеры */
+    --width-content: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --height-content: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
+    /* Шрифты */
+    --font-main: 'Inter', serif;
+    --font-accent: 'Press Start 2P', serif;
+    --font-weight: 'wght' 400;
+    --font-weight-bold: 'wght' 700;
+
+    /* Фон, цвета */
+    --background:
+        repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --background-color: #FFFFFF;
+    --accent-color: #000000;
+    --image-label-stroke: #FFFFFF;
+    --mix-botton-color: #FFFFFF;
+    --sparks-color: #FF0000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root.theme-dark {
+        /* Размеры */
+        --width-content: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+        --height-content: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
+        /* Шрифты */
+        --font-main: 'Inter', serif;
+        --font-accent: 'Press Start 2P', serif;
+        --font-weight: 'wght' 400;
+        --font-weight-bold: 'wght' 700;
+
+        /* Фон, цвета */
+        --background:
+            repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
+            repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+            linear-gradient(to bottom, #007f0c, #004306);
+        --background-color: #000000;
+        --accent-color: #00CC14;
+        --image-label-stroke: #000000;
+        --mix-botton-color: #00CC14;
+        --sparks-color: #FF0000;
+    }
+}
+
+@media (width <= 375px) {
+    .header,
+    .content {
+        --width-content: 100vw;
+    }
+}

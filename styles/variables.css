@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --width-content: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --height-content: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
+                /* Шрифты */
+    --font-main: 'Inter', serif;
+    --font-accent: 'Press Start 2P', serif;
+    --font-weight: 'wght' 400;
+    --font-weight-bold: 'wght' 700;
+
+                /* Фон, цвета */
+    --background:
+        repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --background-color: #FFFFFF;
+    --accent-color: #000000;
+    --image-label-stroke: #FFFFFF;
+    --mix-botton-color: #FFFFFF;
+    --sparks-color: #FF0000;
+}
