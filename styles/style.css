@@ -239,7 +239,6 @@
 }
 
 .card__icon-button {
-  border: none;
   padding: 0;
   background-color: var(--background-color);
   transition: border .3s ease;
