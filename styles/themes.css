@@ -50,7 +50,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root.theme-dark {
+    :root {
         /* Размеры */
         --width-content: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
         --height-content: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
