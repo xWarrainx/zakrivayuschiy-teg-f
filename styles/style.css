@@ -149,7 +149,6 @@
 .section-image {
   width: 100%;
   height: 100%;
-
 }
 
 .grayscale {
@@ -337,10 +336,15 @@
   .content {
       --width-content: 100vw;
   }
+
   .section {
     outline: none;
     border: 2px solid var(--accent-color);
   }
+
+.section-text {
+  line-height: 1.164;
+}
 
   #insert-id[open] {
     padding-inline: 40px;
